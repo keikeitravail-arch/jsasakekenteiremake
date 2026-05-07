@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  background-color: #f5deb3;
+  font-family: "Hiragino Maru Gothic Pro", "Arial Rounded MT Bold", sans-serif;
+  padding: 40px;
+}
+
+.reveal {
+  text-decoration: underline;
+  text-decoration-color: #7d7d7d;
+  text-decoration-thickness: 1px;
+  color: #7d7d7d;
+  cursor: pointer;
+  padding: 2px 4px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48pt;
+  margin-bottom: 40px;
+}
+
+.sakediscriptiondetail {
+  font-size: 18pt;
+  margin-top: -20px;
+}
+
+.discription {
+  font-size: 24pt;
+  line-height: 1.6;
+}
+
+.foursakamai {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 50px;
+    
+}
+.genretable {
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+td {
+  border: 1px solid #333;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+}
+
+/* 5行目の2列目以降 → 左上揃え */
+tr:nth-child(5) td:not(:first-child) {
+  text-align: left;
+  vertical-align: top;
+  font-size: 14pt;
+}
+
+/* 5行目の1列目 → 中央・中段 */
+tr:nth-child(5) td:first-child {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* 6行目の2列目以降 → 左上揃え */
+tr:nth-child(6) td:not(:first-child) {
+  text-align: left;
+  vertical-align: top;
+  font-size: 14pt;
+}
+
+/* 6行目の1列目 → 中央・中段 */
+tr:nth-child(6) td:first-child {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.GI {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 50px;
+}
+
+.fourGI {
+    font-size: 24pt;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.fourGIdetail {
+  font-size: 18pt;
+  margin-top: -20px;
+}
+
+.sixshochu {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 50px;
+}
+
+.shochutable {
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+td {
+  border: 1px solid #333;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+}
+
+.potatoothername {
+  font-size: 12pt;
+  margin-top: -5px;
+  margin-bottom: 0px;
+}
+
+/* 2行目の2列目以降 → 左上揃え */
+tr:nth-child(2) td:not(:first-child) {
+  text-align: left;
+  vertical-align: top;
+  font-size: 14pt;
+}
+
+/* 2行目の1列目 → 中央・中段 */
+tr:nth-child(2) td:first-child {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* 3行目の2列目以降 → 左上揃え */
+tr:nth-child(3) td:not(:first-child) {
+  text-align: left;
+  vertical-align: top;
+  font-size: 14pt;
+}
+
+/* 3行目の1列目 → 中央・中段 */
+tr:nth-child(3) td:first-child {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.recipe {
+  text-align: center;
+}
+
+.sakerecipe {
+  font-size: 24px;
+  line-height: 1.6;
+  /* 表を左右真ん中に設置 */
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/* 2行目以降　→ 左揃え */
+.sakerecipe tbody tr:not(:first-child) td {
+  text-align: left;
+  font-size: 24px;
+}
+
+.sakerecipe td {
+  width: 1000px;
+}
+
+.kokkindiscription {
+  font-size: 18pt;
+  line-height: 1.6;
+}
+
+.water {
+  text-align: center;
+}
+
+.waterdiscription {
+  font-size: 18pt;
+  line-height: 1.6;
+}
